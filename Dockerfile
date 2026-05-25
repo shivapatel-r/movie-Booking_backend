@@ -9,4 +9,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/movie-bboking-app.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
